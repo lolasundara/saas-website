@@ -9,6 +9,7 @@
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 <body>
 
@@ -31,73 +32,75 @@
   </header>
 
   <main role="main" id="main" tabindex="0" class="grid">
-    <div class="unit banner">
-      <img class="img-flex" src="images/home-banner.png" alt="Image of a user interacting with a laptop">
-      <div class="banner-content">
+    <div class="unit relative">
+      <img class="image" src="images/home-banner.png" alt="Image of a user interacting with a laptop">
+      <div class="unit banner-content absolute">
         <div>
-          <h2>#1 Video Conferencing and Web Service</h2>
-          <p>Zoom has an industry-leading net promoter score of 72 based on 2017 wootric surveys</p>
+          <h2 class="push-2 tera">#1 Video Conferencing and Web Service</h2>
+          <p class="push-1-2 micro gutter">Zoom has an industry-leading net promoter score of 72 based on 2017 wootric surveys</p>
         </div>
 
         <form method="POST" action="https://formspree.io/sund0037@algonquinlive.com">
           <div>
             <label for="email"></label>
-            <input id="email" type="email" placeholder="Enter your Email" name="email" required>
+            <input class="push-1-2" id="email" type="email" placeholder="Enter your Email" name="email" required>
           </div>
         </form>
 
-        <div>
+        <div class="text-center">
           <button class="btn" type="submit">Sign Up Free</button>
           <div>
             <input type="hidden" name="_subject" value="Sign up">
           </div>
         </div>
       </div>
-    </div>
 
     <div class="unit">
-      <h2>Why Zoom?</h2>
-      <p>One consistent enterprise experience for all use cases</p>
-      <p>Up to 500 video participants & 10,000 viewers</p>
-      <p>Most affordable, straight-forward pricing</p>
-      <p>Engineered & optimized to work reliably</p>
+      <h2 class="text-center tera island push-0">Why Zoom?</h2>
+      <ul class="gutter text-center list-group">
+        <li>One consistent enterprise experience for all use cases</li>
+        <li>Up to 500 video participants & 10,000 viewers</li>
+        <li>Most affordable, straight-forward pricing</li>
+        <li>Engineered & optimized to work reliably</li>
     </div>
 
-    <div class="unit">
-      <h2>Features</h2>
-      <p>Meetings</p>
-      <p>Webinars</p>
-      <p>Zoom rooms</p>
-      <p>Business IM</p>
+    <div class="unit features xs-1">
+      <h2 class="text-center tera island push-0">Features</h2>
+      <ul class="gutter text-center list-group pad-b">
+        <li>Meetings</li>
+        <li>Webinars</li>
+        <li>Zoom rooms</li>
+        <li>Business IM</li>
+      </ul>
     </div>
 
     <div class="unit">
       <img src="images/" alt="Video of customer testimonies">
     </div>
 
-    <section class="unit">
-      <h2>Zoom is ranked #1 in customer reviews</h2>
-      <div>
-        <h3>Peer Insights</h3>
+    <section class="unit reviews">
+      <h2 class="text-center tera island push-0">Zoom is ranked #1 in customer reviews</h2>
+      <div class="text-center">
+        <h3 class="mega push-0">Peer Insights</h3>
         <p>4 out of 5</p>
       </div>
 
-      <div>
-        <h3>Trust Radius</h3>
+      <div class="text-center">
+        <h3 class="mega push-0">Trust Radius</h3>
         <p>4 out of 5</p>
       </div>
 
-      <div>
-        <h3>G2 Crowd</h3>
+      <div class="text-center">
+        <h3 class="mega push-0">G2 Crowd</h3>
         <p>4 out of 5</p>
       </div>
     </section>
   </main>
 
-  <footer role="contentinfo">
-    <div>
-      <p>About</p>
-      <ul>
+  <footer role="contentinfo" class="grid">
+    <div class="unit xs-1-2 island">
+      <p class="giga">About</p>
+      <ul class="list-group">
         <li>Zoom Blog</li>
         <li>Our Team</li>
         <li>Features</li>
@@ -105,9 +108,9 @@
       </ul>
     </div>
 
-    <div>
-      <p>Sales</p>
-      <ul>
+    <div class="unit xs-1-2 island">
+      <p class="giga">Sales</p>
+      <ul class="list-group">
         <li>1.888.7966</li>
         <li>Integrations</li>
         <li>Webinars</li>
@@ -115,9 +118,9 @@
       </ul>
     </div>
 
-    <div>
-      <p>Support</p>
-      <ul>
+    <div class="unit xs-1-2 island">
+      <p class="giga">Support</p>
+      <ul class="list-group">
         <li>Team Zoom</li>
         <li>Support Center</li>
         <li>Feedback</li>
@@ -126,7 +129,7 @@
     </div>
 
     <form method="POST" action="https://formspree.io/sund0037@algonquinlive.com">
-      <div>
+      <div class="unit xs-1 island">
         <label for="language">Language</label>
         <select id="language" name="_subject">
           <option>English</option>
@@ -135,7 +138,7 @@
         </select>
       </div>
 
-      <div>
+      <div class="unit xs-1 island">
         <label for="currency">Currency</label>
         <select id="currency" name="_subject">
           <option>CAD</option>

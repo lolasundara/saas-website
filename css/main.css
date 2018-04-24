@@ -1,7 +1,36 @@
+html {
+  font-family: "Roboto", sans-serif;
+}
+
 h1 {
   font-family: "Anton", sans-serif;
 }
 
+
 header {
   background-color: #d0bb44;
+}
+
+.banner-content {
+  text-align: center;
+}
+
+.absolute {
+  top: 3.25em;
+}
+
+.features {
+  background-color: #bcd2c6;
+}
+
+.reviews {
+  background-color: #d7c55d;
+}
+
+footer {
+  background-color: #e9eaeb;
+}
+
+.image {
+  width: 145%;
 }
