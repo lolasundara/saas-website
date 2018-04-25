@@ -36,16 +36,25 @@ a:hover {
   top: 6.5em;
 }
 
+.grey {
+  background-color: #e9eaeb;
+}
+
 .sign {
   background-color: #237873;
   border: none;
 }
 
-.features {
+.submit {
+  background-color: #d7c55d;
+  border: none;
+}
+
+.green {
   background-color: #bcd2c6;
 }
 
-.reviews {
+.yellow {
   background-color: #d7c55d;
 }
 
