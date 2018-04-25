@@ -32,13 +32,38 @@
   </header>
 
   <main id="main" role="main" tabindex="0">
+    <figure>
+      <div class="embed embed-4by3 relative">
+        <img class="embed-item" src="images/sign-up.png" alt="Hands joined together">
+      </div>
+    </figure>
+    <div class="unit absolute island push-0">
+      <h2 class="push-0 sign-up-now">Sign Up Now!</h2>
+    </div>
 
+    <section class="unit island push-0">
+      <form method="POST" action="https://formspree.io/sund0037@algonquinlive.com">
+        <div class="push">
+          <label for="email">Your Email</label>
+          <input id="email" type="email" placeholder="me@me.com" name="email" required>
+        </div>
+
+        <div class="push">
+          <label for="name">Full Name</label>
+          <input id="name" name="name" required>
+        </div>
+
+        <div class="push">
+          <button class="btn" type="submit">Submit</button>
+        </div>
+      </form>
+    </section>
   </main>
 
-  <footer role="contentinfo">
-    <div>
-      <p>About</p>
-      <ul>
+  <footer role="contentinfo" class="grid">
+    <div class="unit xs-1-2 island">
+      <p class="giga">About</p>
+      <ul class="list-group">
         <li>Zoom Blog</li>
         <li>Our Team</li>
         <li>Features</li>
@@ -46,9 +71,9 @@
       </ul>
     </div>
 
-    <div>
-      <p>Sales</p>
-      <ul>
+    <div class="unit xs-1-2 island">
+      <p class="giga">Sales</p>
+      <ul class="list-group">
         <li>1.888.7966</li>
         <li>Integrations</li>
         <li>Webinars</li>
@@ -56,9 +81,9 @@
       </ul>
     </div>
 
-    <div>
-      <p>Support</p>
-      <ul>
+    <div class="unit xs-1-2 island">
+      <p class="giga">Support</p>
+      <ul class="list-group">
         <li>Team Zoom</li>
         <li>Support Center</li>
         <li>Feedback</li>
@@ -66,8 +91,8 @@
       </ul>
     </div>
 
-    <form>
-      <div>
+    <form class="unit" method="POST" action="https://formspree.io/sund0037@algonquinlive.com">
+      <div class="unit xs-1 island">
         <label for="language">Language</label>
         <select id="language" name="_subject">
           <option>English</option>
@@ -76,7 +101,7 @@
         </select>
       </div>
 
-      <div>
+      <div class="unit xs-1 island">
         <label for="currency">Currency</label>
         <select id="currency" name="_subject">
           <option>CAD</option>
