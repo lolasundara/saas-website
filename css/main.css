@@ -1,14 +1,31 @@
 html {
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 h1 {
-  font-family: "Anton", sans-serif;
+  font-family: Anton, sans-serif;
 }
-
 
 header {
   background-color: #d0bb44;
+}
+
+a {
+  text-decoration: none;
+  padding: .25em;
+  border-radius: 3px;
+  background-color: #fff;
+  color: #000;
+}
+
+a:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.current {
+  background-color: #000;
+  color: #fff;
 }
 
 .banner-content {
@@ -16,7 +33,12 @@ header {
 }
 
 .absolute {
-  top: 3.25em;
+  top: .5em;
+}
+
+.sign {
+  background-color: #237873;
+  border: none;
 }
 
 .features {
@@ -29,8 +51,4 @@ header {
 
 footer {
   background-color: #e9eaeb;
-}
-
-.image {
-  width: 145%;
 }
