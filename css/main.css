@@ -36,6 +36,11 @@ a:hover {
   top: 1em;
 }
 
+.but {
+  background-color: #237873;
+  color: #fff;
+}
+
 .text {
   position: absolute;
   top: 9.5em;
