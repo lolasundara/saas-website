@@ -72,3 +72,10 @@ footer {
 .sign-up-now {
   color: #fff;
 }
+
+@media only screen and (min-width: 38em) {
+
+  .absolute {
+    top: 18em;
+  }
+}
