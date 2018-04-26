@@ -76,7 +76,15 @@ footer {
 @media only screen and (min-width: 38em) {
 
   .absolute {
-    top: 18em;
+    top: 6em;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .absolute {
+    top: 11em;
   }
 
 }
