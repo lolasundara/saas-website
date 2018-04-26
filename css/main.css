@@ -36,6 +36,12 @@ a:hover {
   top: 1em;
 }
 
+.text {
+  position: absolute;
+  top: 9.5em;
+  left: 4em;
+}
+
 .grey {
   background-color: #e9eaeb;
 }
@@ -73,10 +79,28 @@ footer {
   color: #fff;
 }
 
+@media only screen and (min-width: 25em) {
+
+  .absolute {
+    top: 3.5em;
+  }
+
+  .text {
+    top: 10.5em;
+    left: 7em;
+  }
+
+}
+
 @media only screen and (min-width: 38em) {
 
   .absolute {
     top: 6em;
+  }
+
+  .text {
+    top: 15em;
+    left: 11em;
   }
 
 }
@@ -84,7 +108,12 @@ footer {
 @media only screen and (min-width: 60em) {
 
   .absolute {
-    top: 11em;
+    top: 13em;
+  }
+
+  .text {
+    top: 20em;
+    left: 19em;
   }
 
 }
